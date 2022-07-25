@@ -1,3 +1,7 @@
+<!-- Pagina desarrollada por: Sergio Sarmiento
+Correo: sergiosarmient0ing@gmail.com 
+linkedin: https://www.linkedin.com/in/sergio-andr%C3%A9s-sarmiento-arango-3b917a198
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +13,12 @@
 </head>
 <body>
     <section class="contenedor">
+        <div class="contenedorb">
+            <a href="index copy.html"><div class="buttonc">Pagina 2</div></a>
+        </div>
+        <hr>
+        <img src="img/Recurso 1-100.jpg" alt="">
+            <!-- Apartado del banner desde aca -->
             <div class="img-graficos">
                 <div class="trazado1">
                     <span class="text_1">Especialización<br></span>
@@ -62,26 +72,26 @@
                     </p>
                 </div>
 
-                <div class="botones">
-                    <div class="boton1" onclick="Menu1()">
-                        <img src="img/icon5.png" alt="">
+                <div class="recuadro1">
+                    <div class="boton1v" id="btn1a" onclick="Menu1()">
+                        <img class="filtro" src="img/icon5.png" alt="">
                         <div class="card"></div> 
                         <p>Bienvenida</p>
                     </div>
-                    <div class="boton2" onclick="Menu2()">
-                        <img src="img/icon6.png" alt="">
+                    <div class="boton1" id="btn2a" onclick="Menu2()">
+                        <img class="filtro" src="img/icon6.png" alt="">
                         <p>Presentación</p>
                     </div>
-                    <div class="boton3" onclick="Menu3()">
-                        <img src="img/icon7.png" alt="">
+                    <div class="boton1" id="btn3a" onclick="Menu3()">
+                        <img class="filtro" src="img/icon7.png" alt="">
                         <p>REA</p>
                     </div>
-                    <div class="boton4" onclick="Menu4()">
-                        <img src="img/icon8.png" alt="">
+                    <div class="boton1" id="btn4a" onclick="Menu4()">
+                        <img class="filtro" src="img/icon8.png" alt="">
                         <p>Metodología</p>
                     </div>
-                    <div class="boton5" onclick="Menu5()">
-                        <img src="img/icon9.png" alt="">
+                    <div class="boton1" id="btn5a" onclick="Menu5()">
+                        <img class="filtro" src="img/icon9.png" alt="">
                         <p>Evaluación</p>
                     </div>
                 </div>
@@ -115,6 +125,13 @@
                 document.getElementById("btn3").className = "esconder3";
                 document.getElementById("btn4").className = "esconder4";
                 document.getElementById("btn5").className = "esconder5";
+                
+                document.getElementById("btn1a").className = "boton1v";
+                document.getElementById("btn2a").className = "boton1";
+                document.getElementById("btn3a").className = "boton1";
+                document.getElementById("btn4a").className = "boton1";
+                document.getElementById("btn5a").className = "boton1";
+                
             }
             function Menu2() { 
                 /* $( ".text_1" ).css('font-size', '100px'); */
@@ -123,6 +140,12 @@
                 document.getElementById("btn3").className = "esconder3";
                 document.getElementById("btn4").className = "esconder4";
                 document.getElementById("btn5").className = "esconder5";
+
+                document.getElementById("btn1a").className = "boton1";
+                document.getElementById("btn2a").className = "boton1v";
+                document.getElementById("btn3a").className = "boton1";
+                document.getElementById("btn4a").className = "boton1";
+                document.getElementById("btn5a").className = "boton1";
             }
             function Menu3() { 
                 /* $( ".text_1" ).css('font-size', '100px'); */
@@ -131,6 +154,12 @@
                 document.getElementById("btn3").className = "mostrar3";
                 document.getElementById("btn4").className = "esconder4";
                 document.getElementById("btn5").className = "esconder5";
+
+                document.getElementById("btn1a").className = "boton1";
+                document.getElementById("btn2a").className = "boton1";
+                document.getElementById("btn3a").className = "boton1v";
+                document.getElementById("btn4a").className = "boton1";
+                document.getElementById("btn5a").className = "boton1";
             }
             function Menu4() { 
                 /* $( ".text_1" ).css('font-size', '100px'); */
@@ -139,6 +168,12 @@
                 document.getElementById("btn3").className = "esconder3";
                 document.getElementById("btn4").className = "mostrar4";
                 document.getElementById("btn5").className = "esconder5";
+
+                document.getElementById("btn1a").className = "boton1";
+                document.getElementById("btn2a").className = "boton1";
+                document.getElementById("btn3a").className = "boton1";
+                document.getElementById("btn4a").className = "boton1v";
+                document.getElementById("btn5a").className = "boton1";
             }
             function Menu5() { 
                 /* $( ".text_1" ).css('font-size', '100px'); */
@@ -147,6 +182,12 @@
                 document.getElementById("btn3").className = "esconder3";
                 document.getElementById("btn4").className = "esconder4";
                 document.getElementById("btn5").className = "mostrar5";
+
+                document.getElementById("btn1a").className = "boton1";
+                document.getElementById("btn2a").className = "boton1";
+                document.getElementById("btn3a").className = "boton1";
+                document.getElementById("btn4a").className = "boton1";
+                document.getElementById("btn5a").className = "boton1v";
             }
         </script>    
 </body>
